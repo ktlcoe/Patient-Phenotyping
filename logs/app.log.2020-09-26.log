@@ -1,0 +1,413 @@
+2020-09-26 12:32:04,939 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-26 12:32:32,855 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2020-09-26 14:29:50,752 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-26 14:29:52,278 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 14:29:53,328 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 14:29:53,423 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 14:29:53,517 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 14:29:53,628 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 14:29:53,760 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 14:29:53,853 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 14:29:53,940 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 14:29:54,034 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 14:29:54,153 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 14:29:54,289 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 14:29:54,405 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 14:29:54,509 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 14:29:54,608 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 14:29:54,711 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 14:29:54,843 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 14:29:55,177 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 15:17:42,806 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-26 15:17:44,075 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 15:33:19,902 WARN ScalaTest-run org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-26 15:33:21,138 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 15:33:21,139 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2020-09-26 15:37:09,079 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-26 15:37:10,250 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 15:37:10,251 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2020-09-26 16:11:19,717 ERROR Executor task launch worker for task 1589 org.apache.spark.executor.Executor - Exception in task 43.0 in stage 60.0 (TID 1589)
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at org.apache.spark.sql.catalyst.expressions.GenericRow.get(rows.scala:174) ~[spark-catalyst_2.11-2.3.0.jar:2.3.0]
+	at $line84.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38) ~[scala-library-2.11.12.jar:na]
+	at $line84.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.rdd.RDD$$anonfun$foreach$1$$anonfun$apply$28.apply(RDD.scala:921) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$foreach$1$$anonfun$apply$28.apply(RDD.scala:921) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+2020-09-26 16:11:19,717 ERROR Executor task launch worker for task 1590 org.apache.spark.executor.Executor - Exception in task 51.0 in stage 60.0 (TID 1590)
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at org.apache.spark.sql.catalyst.expressions.GenericRow.get(rows.scala:174) ~[spark-catalyst_2.11-2.3.0.jar:2.3.0]
+	at $line84.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38) ~[scala-library-2.11.12.jar:na]
+	at $line84.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.rdd.RDD$$anonfun$foreach$1$$anonfun$apply$28.apply(RDD.scala:921) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$foreach$1$$anonfun$apply$28.apply(RDD.scala:921) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+2020-09-26 16:11:19,717 ERROR Executor task launch worker for task 1591 org.apache.spark.executor.Executor - Exception in task 174.0 in stage 60.0 (TID 1591)
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at org.apache.spark.sql.catalyst.expressions.GenericRow.get(rows.scala:174) ~[spark-catalyst_2.11-2.3.0.jar:2.3.0]
+	at $line84.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38) ~[scala-library-2.11.12.jar:na]
+	at $line84.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.rdd.RDD$$anonfun$foreach$1$$anonfun$apply$28.apply(RDD.scala:921) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$foreach$1$$anonfun$apply$28.apply(RDD.scala:921) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+2020-09-26 16:11:19,733 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 51.0 in stage 60.0 (TID 1590, localhost, executor driver): java.lang.ArrayIndexOutOfBoundsException: 4
+	at org.apache.spark.sql.catalyst.expressions.GenericRow.get(rows.scala:174)
+	at $line84.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38)
+	at $line84.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.rdd.RDD$$anonfun$foreach$1$$anonfun$apply$28.apply(RDD.scala:921)
+	at org.apache.spark.rdd.RDD$$anonfun$foreach$1$$anonfun$apply$28.apply(RDD.scala:921)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-09-26 16:11:19,734 ERROR task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Task 51 in stage 60.0 failed 1 times; aborting job
+2020-09-26 16:14:23,023 ERROR Executor task launch worker for task 2789 org.apache.spark.executor.Executor - Exception in task 43.0 in stage 78.0 (TID 2789)
+java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.Integer
+	at scala.runtime.BoxesRunTime.unboxToInt(BoxesRunTime.java:101) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.sql.Row$class.getInt(Row.scala:223) ~[spark-catalyst_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.sql.catalyst.expressions.GenericRow.getInt(rows.scala:166) ~[spark-catalyst_2.11-2.3.0.jar:2.3.0]
+	at $line99.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38) ~[scala-library-2.11.12.jar:na]
+	at $line99.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.to(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.toBuffer(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.toArray(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(RDD.scala:939) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(RDD.scala:939) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+2020-09-26 16:14:23,023 ERROR Executor task launch worker for task 2790 org.apache.spark.executor.Executor - Exception in task 51.0 in stage 78.0 (TID 2790)
+java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.Integer
+	at scala.runtime.BoxesRunTime.unboxToInt(BoxesRunTime.java:101) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.sql.Row$class.getInt(Row.scala:223) ~[spark-catalyst_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.sql.catalyst.expressions.GenericRow.getInt(rows.scala:166) ~[spark-catalyst_2.11-2.3.0.jar:2.3.0]
+	at $line99.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38) ~[scala-library-2.11.12.jar:na]
+	at $line99.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.to(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.toBuffer(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.toArray(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(RDD.scala:939) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(RDD.scala:939) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+2020-09-26 16:14:23,023 ERROR Executor task launch worker for task 2791 org.apache.spark.executor.Executor - Exception in task 174.0 in stage 78.0 (TID 2791)
+java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.Integer
+	at scala.runtime.BoxesRunTime.unboxToInt(BoxesRunTime.java:101) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.sql.Row$class.getInt(Row.scala:223) ~[spark-catalyst_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.sql.catalyst.expressions.GenericRow.getInt(rows.scala:166) ~[spark-catalyst_2.11-2.3.0.jar:2.3.0]
+	at $line99.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38) ~[scala-library-2.11.12.jar:na]
+	at $line99.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.to(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.toBuffer(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.toArray(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(RDD.scala:939) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(RDD.scala:939) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+2020-09-26 16:14:23,024 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 43.0 in stage 78.0 (TID 2789, localhost, executor driver): java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.Integer
+	at scala.runtime.BoxesRunTime.unboxToInt(BoxesRunTime.java:101)
+	at org.apache.spark.sql.Row$class.getInt(Row.scala:223)
+	at org.apache.spark.sql.catalyst.expressions.GenericRow.getInt(rows.scala:166)
+	at $line99.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38)
+	at $line99.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+	at scala.collection.AbstractIterator.to(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+	at scala.collection.AbstractIterator.toBuffer(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+	at scala.collection.AbstractIterator.toArray(Iterator.scala:1334)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(RDD.scala:939)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(RDD.scala:939)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-09-26 16:14:23,025 ERROR task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Task 43 in stage 78.0 failed 1 times; aborting job
+2020-09-26 16:14:34,040 ERROR Executor task launch worker for task 3389 org.apache.spark.executor.Executor - Exception in task 43.0 in stage 87.0 (TID 3389)
+java.lang.ClassCastException: null
+2020-09-26 16:14:34,040 ERROR Executor task launch worker for task 3390 org.apache.spark.executor.Executor - Exception in task 51.0 in stage 87.0 (TID 3390)
+java.lang.ClassCastException: null
+2020-09-26 16:14:34,040 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 43.0 in stage 87.0 (TID 3389, localhost, executor driver): java.lang.ClassCastException
+
+2020-09-26 16:14:34,040 ERROR task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Task 43 in stage 87.0 failed 1 times; aborting job
+2020-09-26 16:14:34,042 ERROR Executor task launch worker for task 3391 org.apache.spark.executor.Executor - Exception in task 174.0 in stage 87.0 (TID 3391)
+java.lang.ClassCastException: null
+2020-09-26 16:14:39,184 ERROR Executor task launch worker for task 3589 org.apache.spark.executor.Executor - Exception in task 43.0 in stage 90.0 (TID 3589)
+java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.Double
+	at scala.runtime.BoxesRunTime.unboxToDouble(BoxesRunTime.java:114) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.sql.Row$class.getDouble(Row.scala:248) ~[spark-catalyst_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.sql.catalyst.expressions.GenericRow.getDouble(rows.scala:166) ~[spark-catalyst_2.11-2.3.0.jar:2.3.0]
+	at $line107.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38) ~[scala-library-2.11.12.jar:na]
+	at $line107.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.to(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.toBuffer(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.toArray(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(RDD.scala:939) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(RDD.scala:939) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+2020-09-26 16:14:39,184 ERROR Executor task launch worker for task 3590 org.apache.spark.executor.Executor - Exception in task 51.0 in stage 90.0 (TID 3590)
+java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.Double
+	at scala.runtime.BoxesRunTime.unboxToDouble(BoxesRunTime.java:114) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.sql.Row$class.getDouble(Row.scala:248) ~[spark-catalyst_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.sql.catalyst.expressions.GenericRow.getDouble(rows.scala:166) ~[spark-catalyst_2.11-2.3.0.jar:2.3.0]
+	at $line107.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38) ~[scala-library-2.11.12.jar:na]
+	at $line107.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.to(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.toBuffer(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.toArray(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(RDD.scala:939) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(RDD.scala:939) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+2020-09-26 16:14:39,184 ERROR Executor task launch worker for task 3591 org.apache.spark.executor.Executor - Exception in task 174.0 in stage 90.0 (TID 3591)
+java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.Double
+	at scala.runtime.BoxesRunTime.unboxToDouble(BoxesRunTime.java:114) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.sql.Row$class.getDouble(Row.scala:248) ~[spark-catalyst_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.sql.catalyst.expressions.GenericRow.getDouble(rows.scala:166) ~[spark-catalyst_2.11-2.3.0.jar:2.3.0]
+	at $line107.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38) ~[scala-library-2.11.12.jar:na]
+	at $line107.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.to(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.toBuffer(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.toArray(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(RDD.scala:939) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(RDD.scala:939) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+2020-09-26 16:14:39,185 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 43.0 in stage 90.0 (TID 3589, localhost, executor driver): java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.Double
+	at scala.runtime.BoxesRunTime.unboxToDouble(BoxesRunTime.java:114)
+	at org.apache.spark.sql.Row$class.getDouble(Row.scala:248)
+	at org.apache.spark.sql.catalyst.expressions.GenericRow.getDouble(rows.scala:166)
+	at $line107.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38)
+	at $line107.$read$$iw$$iw$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:38)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+	at scala.collection.AbstractIterator.to(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+	at scala.collection.AbstractIterator.toBuffer(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+	at scala.collection.AbstractIterator.toArray(Iterator.scala:1334)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(RDD.scala:939)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(RDD.scala:939)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-09-26 16:14:39,197 ERROR task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Task 43 in stage 90.0 failed 1 times; aborting job
+2020-09-26 16:18:51,551 ERROR Executor task launch worker for task 5775 org.apache.spark.executor.Executor - Exception in task 18.0 in stage 165.0 (TID 5775)
+java.lang.ClassCastException: null
+2020-09-26 16:18:51,551 ERROR Executor task launch worker for task 5776 org.apache.spark.executor.Executor - Exception in task 26.0 in stage 165.0 (TID 5776)
+java.lang.ClassCastException: null
+2020-09-26 16:18:51,552 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 26.0 in stage 165.0 (TID 5776, localhost, executor driver): java.lang.ClassCastException
+
+2020-09-26 16:18:51,552 ERROR task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Task 26 in stage 165.0 failed 1 times; aborting job
+2020-09-26 16:21:53,927 ERROR Executor task launch worker for task 6599 org.apache.spark.executor.Executor - Exception in task 51.0 in stage 183.0 (TID 6599)
+java.lang.ClassCastException: null
+2020-09-26 16:21:53,927 ERROR Executor task launch worker for task 6598 org.apache.spark.executor.Executor - Exception in task 43.0 in stage 183.0 (TID 6598)
+java.lang.ClassCastException: null
+2020-09-26 16:21:53,927 ERROR Executor task launch worker for task 6600 org.apache.spark.executor.Executor - Exception in task 174.0 in stage 183.0 (TID 6600)
+java.lang.ClassCastException: null
+2020-09-26 16:21:53,928 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 174.0 in stage 183.0 (TID 6600, localhost, executor driver): java.lang.ClassCastException
+
+2020-09-26 16:21:53,928 ERROR task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Task 174 in stage 183.0 failed 1 times; aborting job
+2020-09-26 16:22:50,477 ERROR Executor task launch worker for task 7422 org.apache.spark.executor.Executor - Exception in task 43.0 in stage 189.0 (TID 7422)
+java.lang.ClassCastException: null
+2020-09-26 16:22:50,477 ERROR Executor task launch worker for task 7423 org.apache.spark.executor.Executor - Exception in task 51.0 in stage 189.0 (TID 7423)
+java.lang.ClassCastException: null
+2020-09-26 16:22:50,477 ERROR Executor task launch worker for task 7424 org.apache.spark.executor.Executor - Exception in task 174.0 in stage 189.0 (TID 7424)
+java.lang.ClassCastException: null
+2020-09-26 16:22:50,478 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 43.0 in stage 189.0 (TID 7422, localhost, executor driver): java.lang.ClassCastException
+
+2020-09-26 16:22:50,478 ERROR task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Task 43 in stage 189.0 failed 1 times; aborting job
+2020-09-26 16:24:43,391 ERROR Executor task launch worker for task 8659 org.apache.spark.executor.Executor - Exception in task 51.0 in stage 198.0 (TID 8659)
+java.lang.ClassCastException: null
+2020-09-26 16:24:43,391 ERROR Executor task launch worker for task 8658 org.apache.spark.executor.Executor - Exception in task 43.0 in stage 198.0 (TID 8658)
+java.lang.ClassCastException: null
+2020-09-26 16:24:43,391 ERROR Executor task launch worker for task 8660 org.apache.spark.executor.Executor - Exception in task 174.0 in stage 198.0 (TID 8660)
+java.lang.ClassCastException: null
+2020-09-26 16:24:43,392 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 51.0 in stage 198.0 (TID 8659, localhost, executor driver): java.lang.ClassCastException
+
+2020-09-26 16:24:43,392 ERROR task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Task 51 in stage 198.0 failed 1 times; aborting job
+2020-09-26 16:28:01,145 WARN ScalaTest-run org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-26 16:28:02,346 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 16:28:02,346 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2020-09-26 16:28:02,346 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+2020-09-26 16:28:02,798 WARN ScalaTest-run-running-MetricsTest org.apache.spark.SparkContext - Using an existing SparkContext; some configuration may not take effect.
+2020-09-26 16:30:14,032 WARN ScalaTest-run org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-26 16:30:15,244 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 16:30:15,244 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2020-09-26 16:30:15,245 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+2020-09-26 16:30:15,743 WARN ScalaTest-run-running-MetricsTest org.apache.spark.SparkContext - Using an existing SparkContext; some configuration may not take effect.
+2020-09-26 16:32:36,536 WARN ScalaTest-run org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-26 16:32:37,793 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 16:32:37,794 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2020-09-26 16:32:37,794 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+2020-09-26 16:32:38,266 WARN ScalaTest-run-running-MetricsTest org.apache.spark.SparkContext - Using an existing SparkContext; some configuration may not take effect.
+2020-09-26 16:34:13,772 WARN ScalaTest-run org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-26 16:34:15,026 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 16:34:15,027 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2020-09-26 16:34:15,027 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+2020-09-26 16:34:15,494 WARN ScalaTest-run-running-MetricsTest org.apache.spark.SparkContext - Using an existing SparkContext; some configuration may not take effect.
+2020-09-26 16:34:37,014 WARN ScalaTest-run org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-26 16:34:38,205 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 16:34:38,206 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2020-09-26 16:34:38,206 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+2020-09-26 16:34:38,642 WARN ScalaTest-run-running-MetricsTest org.apache.spark.SparkContext - Using an existing SparkContext; some configuration may not take effect.
+2020-09-26 16:39:04,379 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-26 16:39:05,545 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 16:39:05,545 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2020-09-26 16:39:05,545 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+2020-09-26 16:41:14,826 WARN ScalaTest-run org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-26 16:41:16,077 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-26 16:41:16,077 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2020-09-26 16:41:16,077 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+2020-09-26 16:41:16,077 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+2020-09-26 16:41:16,539 WARN ScalaTest-run-running-MetricsTest org.apache.spark.SparkContext - Using an existing SparkContext; some configuration may not take effect.

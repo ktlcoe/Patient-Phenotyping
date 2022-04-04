@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="DESKTOP-LQ5ITIR" name="edu.gatech.cse6250.phenotyping.T2dmPhenotypeTest" tests="1" errors="0" failures="1" skipped="0" time="0.757" timestamp="2020-09-20T13:39:48">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_261\bin"/><property name="java.vm.version" value="25.261-b12"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\Users\ktlco\OneDrive\Documents\MSA\CSE6250\hw3\hw3\code"/><property name="java.runtime.version" value="1.8.0_261-b12"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="idea.managed" value="true"/><property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_261\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\ktlco\AppData\Local\Temp\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="log4j.ignoreTCL" value="true"/><property name="user.variant" value=""/><property name="os.name" value="Windows 10"/><property name="sbt.log.noformat" value="true"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="jnidispatch.path" value="C:\Users\ktlco\AppData\Local\Temp\jna-102379471\jna7355967423078606382.dll"/><property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\sqlite3;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\ktlco\AppData\Local\Microsoft\WindowsApps;C:\Users\ktlco\AppData\Local\Programs\Microsoft VS Code\bin;C:\sqlite3;C:\Users\ktlco\AppData\Local\GitHubDesktop\bin;C:\Users\ktlco\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\bin;;."/><property name="sbt.version" value="1.3.13"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.0"/><property name="swoval.tmpdir" value="C:\Users\ktlco\.sbt\1.0"/><property name="user.home" value="C:\Users\ktlco"/><property name="user.timezone" value="America/New_York"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="C:\Users\ktlco\AppData\Roaming\JetBrains\IntelliJIdea2020.2\plugins\Scala\launcher\sbt-launch.jar"/><property name="user.name" value="ktlco"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="C:\Users\ktlco\AppData\Roaming\JetBrains\IntelliJIdea2020.2\plugins\Scala\launcher\sbt-launch.jar early(addPluginSbtFile=&quot;&quot;&quot;C:\Users\ktlco\AppData\Local\Temp\idea.sbt&quot;&quot;&quot;) ; set ideaPort in Global := 49379 ; idea-shell"/><property name="java.home" value="C:\Program Files\Java\jre1.8.0_261"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_261"/><property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_261\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_261\lib\resources.jar;C:\Program Files\Java\jre1.8.0_261\lib\rt.jar;C:\Program Files\Java\jre1.8.0_261\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_261\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_261\lib\jce.jar;C:\Program Files\Java\jre1.8.0_261\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_261\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_261\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.stderr.encoding" value="cp437"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sbt.supershell" value="false"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp437"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
+    </properties>
+                     <testcase classname="edu.gatech.cse6250.phenotyping.T2dmPhenotypeTest" name="transform should give expected results" time="0.757">
+                                                 <failure message="org.scalatest.exceptions.TestFailedException: 3 was not equal to 976" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: org.scalatest.exceptions.TestFailedException: 3 was not equal to 976
+	at org.scalatest.MatchersHelper$.newTestFailedException(MatchersHelper.scala:160)
+	at org.scalatest.Matchers$ShouldMethodHelper$.shouldMatcher(Matchers.scala:6231)
+	at org.scalatest.Matchers$AnyShouldWrapper.should(Matchers.scala:6265)
+	at edu.gatech.cse6250.phenotyping.T2dmPhenotypeTest$$anonfun$3.apply$mcV$sp(T2dmPhenotypeTest.scala:41)
+	at edu.gatech.cse6250.phenotyping.T2dmPhenotypeTest$$anonfun$3.apply(T2dmPhenotypeTest.scala:34)
+	at edu.gatech.cse6250.phenotyping.T2dmPhenotypeTest$$anonfun$3.apply(T2dmPhenotypeTest.scala:34)
+	at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)
+	at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.FlatSpecLike$$anon$1.apply(FlatSpecLike.scala:1647)
+	at org.scalatest.Suite$class.withFixture(Suite.scala:1122)
+	at org.scalatest.FlatSpec.withFixture(FlatSpec.scala:1683)
+	at org.scalatest.FlatSpecLike$class.invokeWithFixture$1(FlatSpecLike.scala:1644)
+	at org.scalatest.FlatSpecLike$$anonfun$runTest$1.apply(FlatSpecLike.scala:1656)
+	at org.scalatest.FlatSpecLike$$anonfun$runTest$1.apply(FlatSpecLike.scala:1656)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)
+	at org.scalatest.FlatSpecLike$class.runTest(FlatSpecLike.scala:1656)
+	at edu.gatech.cse6250.phenotyping.T2dmPhenotypeTest.org$scalatest$BeforeAndAfter$$super$runTest(T2dmPhenotypeTest.scala:21)
+	at org.scalatest.BeforeAndAfter$class.runTest(BeforeAndAfter.scala:200)
+	at edu.gatech.cse6250.phenotyping.T2dmPhenotypeTest.runTest(T2dmPhenotypeTest.scala:21)
+	at org.scalatest.FlatSpecLike$$anonfun$runTests$1.apply(FlatSpecLike.scala:1714)
+	at org.scalatest.FlatSpecLike$$anonfun$runTests$1.apply(FlatSpecLike.scala:1714)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:413)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:401)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:390)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:427)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:401)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:396)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:483)
+	at org.scalatest.FlatSpecLike$class.runTests(FlatSpecLike.scala:1714)
+	at org.scalatest.FlatSpec.runTests(FlatSpec.scala:1683)
+	at org.scalatest.Suite$class.run(Suite.scala:1424)
+	at org.scalatest.FlatSpec.org$scalatest$FlatSpecLike$$super$run(FlatSpec.scala:1683)
+	at org.scalatest.FlatSpecLike$$anonfun$run$1.apply(FlatSpecLike.scala:1760)
+	at org.scalatest.FlatSpecLike$$anonfun$run$1.apply(FlatSpecLike.scala:1760)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:545)
+	at org.scalatest.FlatSpecLike$class.run(FlatSpecLike.scala:1760)
+	at edu.gatech.cse6250.phenotyping.T2dmPhenotypeTest.org$scalatest$BeforeAndAfter$$super$run(T2dmPhenotypeTest.scala:21)
+	at org.scalatest.BeforeAndAfter$class.run(BeforeAndAfter.scala:241)
+	at edu.gatech.cse6250.phenotyping.T2dmPhenotypeTest.run(T2dmPhenotypeTest.scala:21)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:466)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:677)
+	at sbt.ForkMain$Run.lambda$runTest$1(ForkMain.java:304)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</failure>
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

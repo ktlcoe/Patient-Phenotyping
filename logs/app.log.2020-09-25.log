@@ -1,0 +1,379 @@
+2020-09-25 15:17:34,536 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-25 15:17:54,200 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2020-09-25 15:32:12,516 ERROR Executor task launch worker for task 111 org.apache.spark.executor.Executor - Exception in task 8.0 in stage 28.0 (TID 111)
+java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:347) ~[scala-library-2.11.12.jar:na]
+	at scala.None$.get(Option.scala:345) ~[scala-library-2.11.12.jar:na]
+	at $line112.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43) ~[scala-library-2.11.12.jar:na]
+	at $line112.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$13.hasNext(Iterator.scala:463) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.rdd.RDD$$anonfun$foreach$1$$anonfun$apply$28.apply(RDD.scala:921) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$foreach$1$$anonfun$apply$28.apply(RDD.scala:921) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+2020-09-25 15:32:12,535 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 8.0 in stage 28.0 (TID 111, localhost, executor driver): java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:347)
+	at scala.None$.get(Option.scala:345)
+	at $line112.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43)
+	at $line112.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$13.hasNext(Iterator.scala:463)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.spark.rdd.RDD$$anonfun$foreach$1$$anonfun$apply$28.apply(RDD.scala:921)
+	at org.apache.spark.rdd.RDD$$anonfun$foreach$1$$anonfun$apply$28.apply(RDD.scala:921)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-09-25 15:32:12,537 ERROR task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Task 8 in stage 28.0 failed 1 times; aborting job
+2020-09-25 15:32:12,538 ERROR Executor task launch worker for task 114 org.apache.spark.executor.Executor - Exception in task 11.0 in stage 28.0 (TID 114)
+java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:347) ~[scala-library-2.11.12.jar:na]
+	at scala.None$.get(Option.scala:345) ~[scala-library-2.11.12.jar:na]
+	at $line112.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43) ~[scala-library-2.11.12.jar:na]
+	at $line112.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$13.hasNext(Iterator.scala:463) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.rdd.RDD$$anonfun$foreach$1$$anonfun$apply$28.apply(RDD.scala:921) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$foreach$1$$anonfun$apply$28.apply(RDD.scala:921) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+2020-09-25 15:32:12,550 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 1.0 in stage 28.0 (TID 104, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:32:12,550 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 4.0 in stage 28.0 (TID 107, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:32:12,550 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 0.0 in stage 28.0 (TID 103, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:32:12,550 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 9.0 in stage 28.0 (TID 112, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:32:12,551 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 3.0 in stage 28.0 (TID 106, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:32:12,551 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 6.0 in stage 28.0 (TID 109, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:32:12,551 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 5.0 in stage 28.0 (TID 108, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:32:12,551 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 10.0 in stage 28.0 (TID 113, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:32:12,551 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 2.0 in stage 28.0 (TID 105, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:32:12,551 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 7.0 in stage 28.0 (TID 110, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:33:15,694 ERROR Executor task launch worker for task 137 org.apache.spark.executor.Executor - Exception in task 8.0 in stage 31.0 (TID 137)
+java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:347) ~[scala-library-2.11.12.jar:na]
+	at scala.None$.get(Option.scala:345) ~[scala-library-2.11.12.jar:na]
+	at $line119.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43) ~[scala-library-2.11.12.jar:na]
+	at $line119.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$13.hasNext(Iterator.scala:463) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.util.collection.ExternalSorter.insertAll(ExternalSorter.scala:191) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.shuffle.sort.SortShuffleWriter.write(SortShuffleWriter.scala:63) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+2020-09-25 15:33:15,695 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 8.0 in stage 31.0 (TID 137, localhost, executor driver): java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:347)
+	at scala.None$.get(Option.scala:345)
+	at $line119.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43)
+	at $line119.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$13.hasNext(Iterator.scala:463)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at org.apache.spark.util.collection.ExternalSorter.insertAll(ExternalSorter.scala:191)
+	at org.apache.spark.shuffle.sort.SortShuffleWriter.write(SortShuffleWriter.scala:63)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-09-25 15:33:15,696 ERROR task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Task 8 in stage 31.0 failed 1 times; aborting job
+2020-09-25 15:33:15,700 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 7.0 in stage 31.0 (TID 136, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:33:15,701 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 10.0 in stage 31.0 (TID 139, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:33:15,701 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 6.0 in stage 31.0 (TID 135, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:33:15,701 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 1.0 in stage 31.0 (TID 130, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:33:15,701 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 2.0 in stage 31.0 (TID 131, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:33:15,701 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 9.0 in stage 31.0 (TID 138, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:33:15,701 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 11.0 in stage 31.0 (TID 140, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:33:15,701 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 5.0 in stage 31.0 (TID 134, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:33:15,702 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 0.0 in stage 31.0 (TID 129, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:33:15,702 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 4.0 in stage 31.0 (TID 133, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:33:15,702 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 3.0 in stage 31.0 (TID 132, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:34:15,863 ERROR Executor task launch worker for task 150 org.apache.spark.executor.Executor - Exception in task 8.0 in stage 38.0 (TID 150)
+java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:347) ~[scala-library-2.11.12.jar:na]
+	at scala.None$.get(Option.scala:345) ~[scala-library-2.11.12.jar:na]
+	at $line119.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43) ~[scala-library-2.11.12.jar:na]
+	at $line119.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.util.collection.ExternalSorter.insertAll(ExternalSorter.scala:193) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.shuffle.sort.SortShuffleWriter.write(SortShuffleWriter.scala:63) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+2020-09-25 15:34:15,864 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 8.0 in stage 38.0 (TID 150, localhost, executor driver): java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:347)
+	at scala.None$.get(Option.scala:345)
+	at $line119.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43)
+	at $line119.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at org.apache.spark.util.collection.ExternalSorter.insertAll(ExternalSorter.scala:193)
+	at org.apache.spark.shuffle.sort.SortShuffleWriter.write(SortShuffleWriter.scala:63)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-09-25 15:34:15,864 ERROR task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Task 8 in stage 38.0 failed 1 times; aborting job
+2020-09-25 15:34:15,868 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 3.0 in stage 38.0 (TID 145, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:34:15,869 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 4.0 in stage 38.0 (TID 146, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:34:15,869 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 5.0 in stage 38.0 (TID 147, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:34:15,869 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 1.0 in stage 38.0 (TID 143, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:34:15,869 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 10.0 in stage 38.0 (TID 152, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:34:15,869 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 2.0 in stage 38.0 (TID 144, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:34:15,869 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 6.0 in stage 38.0 (TID 148, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:34:15,870 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 0.0 in stage 38.0 (TID 142, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:34:15,870 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 7.0 in stage 38.0 (TID 149, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:34:15,870 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 9.0 in stage 38.0 (TID 151, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:34:15,870 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 11.0 in stage 38.0 (TID 153, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:45:19,479 ERROR Executor task launch worker for task 195 org.apache.spark.executor.Executor - Exception in task 11.0 in stage 48.0 (TID 195)
+java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:347) ~[scala-library-2.11.12.jar:na]
+	at scala.None$.get(Option.scala:345) ~[scala-library-2.11.12.jar:na]
+	at $line132.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43) ~[scala-library-2.11.12.jar:na]
+	at $line132.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.util.collection.ExternalSorter.insertAll(ExternalSorter.scala:193) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.shuffle.sort.SortShuffleWriter.write(SortShuffleWriter.scala:63) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+2020-09-25 15:45:19,480 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 11.0 in stage 48.0 (TID 195, localhost, executor driver): java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:347)
+	at scala.None$.get(Option.scala:345)
+	at $line132.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43)
+	at $line132.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at org.apache.spark.util.collection.ExternalSorter.insertAll(ExternalSorter.scala:193)
+	at org.apache.spark.shuffle.sort.SortShuffleWriter.write(SortShuffleWriter.scala:63)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-09-25 15:45:19,480 ERROR task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Task 11 in stage 48.0 failed 1 times; aborting job
+2020-09-25 15:45:19,483 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 0.0 in stage 48.0 (TID 184, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:45:19,484 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 3.0 in stage 48.0 (TID 187, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:45:19,484 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 8.0 in stage 48.0 (TID 192, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:45:19,484 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 7.0 in stage 48.0 (TID 191, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:45:19,484 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 2.0 in stage 48.0 (TID 186, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:45:19,484 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 10.0 in stage 48.0 (TID 194, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:45:19,484 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 5.0 in stage 48.0 (TID 189, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:45:19,484 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 1.0 in stage 48.0 (TID 185, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:45:19,485 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 9.0 in stage 48.0 (TID 193, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:45:19,485 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 6.0 in stage 48.0 (TID 190, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:45:19,485 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 4.0 in stage 48.0 (TID 188, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:46:43,026 ERROR Executor task launch worker for task 206 org.apache.spark.executor.Executor - Exception in task 8.0 in stage 58.0 (TID 206)
+java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:347) ~[scala-library-2.11.12.jar:na]
+	at scala.None$.get(Option.scala:345) ~[scala-library-2.11.12.jar:na]
+	at $line132.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43) ~[scala-library-2.11.12.jar:na]
+	at $line132.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.util.collection.ExternalSorter.insertAll(ExternalSorter.scala:193) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.shuffle.sort.SortShuffleWriter.write(SortShuffleWriter.scala:63) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+2020-09-25 15:46:43,027 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 8.0 in stage 58.0 (TID 206, localhost, executor driver): java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:347)
+	at scala.None$.get(Option.scala:345)
+	at $line132.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43)
+	at $line132.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at org.apache.spark.util.collection.ExternalSorter.insertAll(ExternalSorter.scala:193)
+	at org.apache.spark.shuffle.sort.SortShuffleWriter.write(SortShuffleWriter.scala:63)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-09-25 15:46:43,027 ERROR task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Task 8 in stage 58.0 failed 1 times; aborting job
+2020-09-25 15:46:43,030 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 2.0 in stage 58.0 (TID 200, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:46:43,030 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 10.0 in stage 58.0 (TID 208, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:46:43,031 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 4.0 in stage 58.0 (TID 202, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:46:43,031 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 1.0 in stage 58.0 (TID 199, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:46:43,040 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 0.0 in stage 58.0 (TID 198, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:46:43,040 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 5.0 in stage 58.0 (TID 203, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:46:43,040 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 3.0 in stage 58.0 (TID 201, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:46:43,040 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 7.0 in stage 58.0 (TID 205, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:46:43,041 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 9.0 in stage 58.0 (TID 207, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:46:43,041 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 6.0 in stage 58.0 (TID 204, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:46:43,041 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 11.0 in stage 58.0 (TID 209, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:47:52,471 ERROR Executor task launch worker for task 218 org.apache.spark.executor.Executor - Exception in task 8.0 in stage 62.0 (TID 218)
+java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:347) ~[scala-library-2.11.12.jar:na]
+	at scala.None$.get(Option.scala:345) ~[scala-library-2.11.12.jar:na]
+	at $line132.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43) ~[scala-library-2.11.12.jar:na]
+	at $line132.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.util.collection.ExternalSorter.insertAll(ExternalSorter.scala:193) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.shuffle.sort.SortShuffleWriter.write(SortShuffleWriter.scala:63) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+2020-09-25 15:47:52,473 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 8.0 in stage 62.0 (TID 218, localhost, executor driver): java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:347)
+	at scala.None$.get(Option.scala:345)
+	at $line132.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43)
+	at $line132.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at org.apache.spark.util.collection.ExternalSorter.insertAll(ExternalSorter.scala:193)
+	at org.apache.spark.shuffle.sort.SortShuffleWriter.write(SortShuffleWriter.scala:63)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-09-25 15:47:52,473 ERROR task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Task 8 in stage 62.0 failed 1 times; aborting job
+2020-09-25 15:47:52,477 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 11.0 in stage 62.0 (TID 221, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:47:52,478 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 6.0 in stage 62.0 (TID 216, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:47:52,478 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 2.0 in stage 62.0 (TID 212, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:47:52,478 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 9.0 in stage 62.0 (TID 219, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:47:52,478 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 10.0 in stage 62.0 (TID 220, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:47:52,478 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 7.0 in stage 62.0 (TID 217, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:47:52,478 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 4.0 in stage 62.0 (TID 214, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:47:52,478 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 0.0 in stage 62.0 (TID 210, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:47:52,478 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 1.0 in stage 62.0 (TID 211, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:47:52,479 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 3.0 in stage 62.0 (TID 213, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:47:52,479 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 5.0 in stage 62.0 (TID 215, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:48:31,594 ERROR Executor task launch worker for task 230 org.apache.spark.executor.Executor - Exception in task 8.0 in stage 66.0 (TID 230)
+java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:347) ~[scala-library-2.11.12.jar:na]
+	at scala.None$.get(Option.scala:345) ~[scala-library-2.11.12.jar:na]
+	at $line132.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43) ~[scala-library-2.11.12.jar:na]
+	at $line132.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.util.Utils$.getIteratorSize(Utils.scala:1835) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+2020-09-25 15:48:31,595 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 8.0 in stage 66.0 (TID 230, localhost, executor driver): java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:347)
+	at scala.None$.get(Option.scala:345)
+	at $line132.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43)
+	at $line132.$read$$iw$$iw$$iw$$iw$$anonfun$1.apply(<console>:43)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at org.apache.spark.util.Utils$.getIteratorSize(Utils.scala:1835)
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162)
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-09-25 15:48:31,595 ERROR task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Task 8 in stage 66.0 failed 1 times; aborting job
+2020-09-25 15:48:31,597 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 2.0 in stage 66.0 (TID 224, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:48:31,597 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 1.0 in stage 66.0 (TID 223, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:48:31,597 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 0.0 in stage 66.0 (TID 222, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:48:31,597 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 6.0 in stage 66.0 (TID 228, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:48:31,606 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 10.0 in stage 66.0 (TID 232, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:48:31,606 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 7.0 in stage 66.0 (TID 229, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:48:31,606 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 3.0 in stage 66.0 (TID 225, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:48:31,606 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 9.0 in stage 66.0 (TID 231, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:48:31,607 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 4.0 in stage 66.0 (TID 226, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:48:31,607 WARN task-result-getter-2 org.apache.spark.scheduler.TaskSetManager - Lost task 11.0 in stage 66.0 (TID 233, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 15:48:31,607 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 5.0 in stage 66.0 (TID 227, localhost, executor driver): TaskKilled (Stage cancelled)
+2020-09-25 19:03:23,507 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-25 19:03:24,786 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-25 19:03:28,461 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.

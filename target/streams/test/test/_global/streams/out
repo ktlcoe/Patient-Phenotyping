@@ -1,0 +1,85 @@
+[debug] javaOptions: Vector()
+[debug] Forking tests - parallelism = false
+[debug] Create a single-thread test executor
+[debug] Runner for org.scalatest.tools.Framework produced 4 initial tasks for 4 tests.
+[debug]   Running TaskDef(edu.gatech.cse6250.main.LoadRddRawDataTest, sbt.ForkMain$SubclassFingerscan@546e3191, false, [SuiteSelector])
+[info] LoadRddRawDataTest:
+[info] - Testing your data loader
+[debug]     Produced 0 nested tasks and 1 events.
+[debug]   Running TaskDef(edu.gatech.cse6250.clustering.MetricsTest, sbt.ForkMain$SubclassFingerscan@58834a3c, false, [SuiteSelector])
+[info] MetricsTest:
+[info] - Testing your metrics purity calculation *** FAILED ***
+[info]   0 did not equal 1 (MetricsTest.scala:46)
+[debug]     Produced 0 nested tasks and 1 events.
+[debug]   Running TaskDef(edu.gatech.cse6250.phenotyping.T2dmPhenotypeTest, sbt.ForkMain$SubclassFingerscan@6bfbdb92, false, [SuiteSelector])
+[info] T2dmPhenotypeTest:
+[info] transform
+[info] - should give expected results *** FAILED ***
+[info]   3 was not equal to 976 (T2dmPhenotypeTest.scala:41)
+[debug]     Produced 0 nested tasks and 1 events.
+[debug]   Running TaskDef(edu.gatech.cse6250.features.FeatureConstructionTest, sbt.ForkMain$SubclassFingerscan@7bacfe6e, false, [SuiteSelector])
+[info] FeatureConstructionTest:
+[info] constructDiagnosticFeatureTuple
+[info] - should aggregate one event *** FAILED ***
+[info]   Array(((patient,diagnostics),1.0)) was not equal to Array(((patient1,code1),1.0)) (FeatureConstructionTest.scala:50)
+[info] constructDiagnosticFeatureTuple
+[info] - should aggregate two different events *** FAILED ***
+[info]   Map((patient,diagnostics) -> 1.0) was not equal to Map((patient1,code1) -> 1.0, (patient1,code2) -> 1.0) (FeatureConstructionTest.scala:63)
+[info] constructDiagnosticFeatureTuple
+[info] - should aggregate two same events *** FAILED ***
+[info]   Array(((patient,diagnostics),1.0)) was not equal to Array(((patient1,code1),2.0)) (FeatureConstructionTest.scala:75)
+[info] constructDiagnosticFeatureTuple
+[info] - should aggregate three events with duplication *** FAILED ***
+[info]   Map((patient,diagnostics) -> 1.0) was not equal to Map((patient1,code1) -> 2.0, (patient1,code2) -> 1.0) (FeatureConstructionTest.scala:89)
+[info] constructDiagnosticFeatureTuple
+[info] - should filter *** FAILED ***
+[info]   Array(((patient,diagnostics),1.0)) was not equal to Array(((patient1,code2),1.0)) (FeatureConstructionTest.scala:102)
+[info] constructMedicationFeatureTuple
+[info] - should aggregate one event *** FAILED ***
+[info]   Array(((patient,med),1.0)) was not equal to Array(((patient1,code1),1.0)) (FeatureConstructionTest.scala:121)
+[info] constructMedicationFeatureTuple
+[info] - should aggregate two different events *** FAILED ***
+[info]   Map((patient,med) -> 1.0) was not equal to Map((patient1,code1) -> 1.0, (patient1,code2) -> 1.0) (FeatureConstructionTest.scala:134)
+[info] constructMedicationFeatureTuple
+[info] - should aggregate two same events *** FAILED ***
+[info]   Array(((patient,med),1.0)) was not equal to Array(((patient1,code1),2.0)) (FeatureConstructionTest.scala:146)
+[info] constructMedicationFeatureTuple
+[info] - should aggregate three events with duplication *** FAILED ***
+[info]   Map((patient,med) -> 1.0) was not equal to Map((patient1,code1) -> 1.0, (patient1,code2) -> 2.0) (FeatureConstructionTest.scala:160)
+[info] constructMedicationFeatureTuple
+[info] - should filter *** FAILED ***
+[info]   Array(((patient,med),1.0)) was not equal to Array(((patient1,code2),2.0)) (FeatureConstructionTest.scala:173)
+[info] constructLabFeatureTuple
+[info] - should aggregate one event *** FAILED ***
+[info]   Array(((patient,lab),1.0)) was not equal to Array(((patient1,code1),42.0)) (FeatureConstructionTest.scala:192)
+[info] constructLabFeatureTuple
+[info] - should aggregate two different events *** FAILED ***
+[info]   Map((patient,lab) -> 1.0) was not equal to Map((patient1,code1) -> 42.0, (patient1,code2) -> 24.0) (FeatureConstructionTest.scala:205)
+[info] constructLabFeatureTuple
+[info] - should aggregate two same events *** FAILED ***
+[info]   Array(((patient,lab),1.0)) was not equal to Array(((patient1,code1),33.0)) (FeatureConstructionTest.scala:217)
+[info] constructLabFeatureTuple
+[info] - should aggregate three events with duplication *** FAILED ***
+[info]   Map((patient,lab) -> 1.0) was not equal to Map((patient1,code1) -> 33.0, (patient1,code2) -> 7475.0) (FeatureConstructionTest.scala:231)
+[info] constructLabFeatureTuple
+[info] - should filter *** FAILED ***
+[info]   Array(((patient,lab),1.0)) was not equal to Array(((patient1,code2),7475.0)) (FeatureConstructionTest.scala:244)
+[info] construct
+[info] - should give unique ID to codes *** FAILED ***
+[info]   Array((Patient-NO-1,[1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0]), (Patient-NO-2,[1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0]), (Patient-NO-3,[1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0]), (Patient-NO-4,[1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0]), (Patient-NO-5,[1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0]), (Patient-NO-6,[1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0]), (Patient-NO-7,[1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0]), (Patient-NO-8,[1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0]), (Patient-NO-9,[1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0]), (Patient-NO-10,[1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0])) was not equal to Array((patient1,[24.0,42.0])) (FeatureConstructionTest.scala:263)
+[info] construct
+[info] - should give sparse vectors *** FAILED ***
+[info]   Map("Patient-NO-10" -> [1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0], "Patient-NO-8" -> [1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0], "Patient-NO-2" -> [1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0], "Patient-NO-5" -> [1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0], "Patient-NO-4" -> [1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0], "Patient-NO-7" -> [1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0], "Patient-NO-1" -> [1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0], "Patient-NO-9" -> [1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0], "Patient-NO-3" -> [1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0], "Patient-NO-6" -> [1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0]) was not equal to Map("patient1" -> [42.0,0.0,24.0], "patient2" -> [0.0,12.0,0.0]) (FeatureConstructionTest.scala:276)
+[debug]     Produced 0 nested tasks and 17 events.
+[info] Run completed in 11 seconds, 113 milliseconds.
+[info] Total number of tests run: 20
+[info] Suites: completed 4, aborted 0
+[info] Tests: succeeded 1, failed 19, canceled 0, ignored 0, pending 0
+[info] *** 19 TESTS FAILED ***
+[debug] Passed tests:
+[debug] 	edu.gatech.cse6250.main.LoadRddRawDataTest
+[error] Failed tests:
+[error] 	edu.gatech.cse6250.features.FeatureConstructionTest
+[error] 	edu.gatech.cse6250.phenotyping.T2dmPhenotypeTest
+[error] 	edu.gatech.cse6250.clustering.MetricsTest
+[error] (Test / test) sbt.TestsFailedException: Tests unsuccessful

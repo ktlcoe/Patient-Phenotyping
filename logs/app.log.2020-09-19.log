@@ -1,0 +1,5 @@
+2020-09-19 18:00:52,256 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-19 18:00:54,321 WARN Executor task launch worker for task 99 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-09-19 18:00:54,359 WARN Executor task launch worker for task 99 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2020-09-19 18:00:54,596 WARN main com.github.fommil.netlib.LAPACK - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-09-19 18:00:54,639 WARN main com.github.fommil.netlib.LAPACK - Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK

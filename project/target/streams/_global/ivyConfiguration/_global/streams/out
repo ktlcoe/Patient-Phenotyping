@@ -1,0 +1,1 @@
+[warn] insecure HTTP request is deprecated 'http://dl.bintray.com/typesafe/releases/'; switch to HTTPS or opt-in as ("Typesafe repository" at "http://dl.bintray.com/typesafe/releases/").withAllowInsecureProtocol(true)

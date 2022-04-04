@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="big-data-hw3">
+      <option name="postfixOps" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-optimize" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xlint" />
+        <parameter value="-Ywarn-adapted-args" />
+        <parameter value="-Ywarn-dead-code" />
+        <parameter value="-Ywarn-inaccessible" />
+        <parameter value="-Ywarn-nullary-override" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Yinline-warnings" />
+        <parameter value="-Ybackend:GenBCode" />
+      </parameters>
+    </profile>
+  </component>
+</project>

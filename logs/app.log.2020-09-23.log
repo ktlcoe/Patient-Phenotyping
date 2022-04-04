@@ -1,0 +1,2 @@
+2020-09-23 13:39:42,707 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-23 13:39:48,115 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.

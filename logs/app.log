@@ -1,0 +1,126 @@
+2020-09-27 11:06:53,531 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-27 11:07:39,781 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2020-09-27 11:20:46,650 WARN Executor task launch worker for task 565 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-09-27 11:20:46,698 INFO Executor task launch worker for task 565 com.github.fommil.jni.JniLoader - successfully loaded C:\Users\ktlco\AppData\Local\Temp\jniloader1549430988299561887netlib-native_ref-win-x86_64.dll
+2020-09-27 11:20:47,366 WARN main com.github.fommil.netlib.LAPACK - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-09-27 11:20:47,377 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_ref-win-x86_64.dll
+2020-09-27 11:21:16,699 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2020-09-27 11:21:17,181 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2020-09-27 11:24:35,504 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2020-09-27 11:24:35,868 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2020-09-27 11:26:07,616 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2020-09-27 11:26:07,974 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2020-09-27 11:54:35,640 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-27 11:54:36,937 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-27 11:54:40,419 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2020-09-27 11:54:50,992 WARN Executor task launch worker for task 670 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-09-27 11:54:51,035 INFO Executor task launch worker for task 670 com.github.fommil.jni.JniLoader - successfully loaded C:\Users\ktlco\AppData\Local\Temp\jniloader1737447573736237255netlib-native_ref-win-x86_64.dll
+2020-09-27 11:54:51,371 WARN main com.github.fommil.netlib.LAPACK - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-09-27 11:54:51,382 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_ref-win-x86_64.dll
+2020-09-27 11:54:51,402 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2020-09-27 11:54:52,148 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2020-09-27 11:54:57,134 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2020-09-27 11:54:57,659 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2020-09-27 12:19:06,408 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-27 12:19:07,889 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-27 12:19:11,544 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2020-09-27 12:19:22,365 WARN Executor task launch worker for task 673 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-09-27 12:19:22,410 INFO Executor task launch worker for task 673 com.github.fommil.jni.JniLoader - successfully loaded C:\Users\ktlco\AppData\Local\Temp\jniloader1679010251013302294netlib-native_ref-win-x86_64.dll
+2020-09-27 12:19:22,756 WARN main com.github.fommil.netlib.LAPACK - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-09-27 12:19:22,767 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_ref-win-x86_64.dll
+2020-09-27 12:19:22,788 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2020-09-27 12:19:24,023 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2020-09-27 12:19:28,895 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2020-09-27 12:19:29,485 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2020-09-27 12:22:17,351 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-27 12:22:18,596 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-27 12:22:22,028 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2020-09-27 12:22:32,469 WARN Executor task launch worker for task 672 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-09-27 12:22:32,515 INFO Executor task launch worker for task 672 com.github.fommil.jni.JniLoader - successfully loaded C:\Users\ktlco\AppData\Local\Temp\jniloader712076811827246881netlib-native_ref-win-x86_64.dll
+2020-09-27 12:22:32,873 WARN main com.github.fommil.netlib.LAPACK - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-09-27 12:22:32,885 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_ref-win-x86_64.dll
+2020-09-27 12:39:16,759 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-27 12:39:18,045 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-27 12:39:21,843 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2020-09-27 12:39:32,434 WARN Executor task launch worker for task 681 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-09-27 12:39:32,478 INFO Executor task launch worker for task 681 com.github.fommil.jni.JniLoader - successfully loaded C:\Users\ktlco\AppData\Local\Temp\jniloader8395102640940059192netlib-native_ref-win-x86_64.dll
+2020-09-27 12:39:32,801 WARN main com.github.fommil.netlib.LAPACK - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-09-27 12:39:32,812 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_ref-win-x86_64.dll
+2020-09-27 12:50:05,549 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-27 12:50:06,911 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-27 12:50:10,363 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2020-09-27 12:50:20,449 WARN Executor task launch worker for task 681 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-09-27 12:50:20,494 INFO Executor task launch worker for task 681 com.github.fommil.jni.JniLoader - successfully loaded C:\Users\ktlco\AppData\Local\Temp\jniloader6073755473253715434netlib-native_ref-win-x86_64.dll
+2020-09-27 12:50:20,817 WARN main com.github.fommil.netlib.LAPACK - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-09-27 12:50:20,828 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_ref-win-x86_64.dll
+2020-09-27 12:50:40,147 WARN block-manager-slave-async-thread-pool-3 org.apache.spark.shuffle.IndexShuffleBlockResolver - Error deleting data C:\Users\ktlco\AppData\Local\Temp\blockmgr-3e34b3c4-b5bb-41db-a5b6-63da811d73b2\00\shuffle_114_118_0.data
+2020-09-27 12:50:45,990 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-27 12:50:47,203 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-27 12:50:50,587 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2020-09-27 12:51:00,760 WARN Executor task launch worker for task 676 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-09-27 12:51:00,802 INFO Executor task launch worker for task 676 com.github.fommil.jni.JniLoader - successfully loaded C:\Users\ktlco\AppData\Local\Temp\jniloader720704505190167886netlib-native_ref-win-x86_64.dll
+2020-09-27 12:51:01,132 WARN main com.github.fommil.netlib.LAPACK - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-09-27 12:51:01,143 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_ref-win-x86_64.dll
+2020-09-27 12:52:56,927 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-27 12:52:58,198 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-27 12:53:01,684 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2020-09-27 12:53:12,682 WARN Executor task launch worker for task 683 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-09-27 12:53:12,728 INFO Executor task launch worker for task 683 com.github.fommil.jni.JniLoader - successfully loaded C:\Users\ktlco\AppData\Local\Temp\jniloader881894546005589189netlib-native_ref-win-x86_64.dll
+2020-09-27 12:53:13,071 WARN main com.github.fommil.netlib.LAPACK - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-09-27 12:53:13,084 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_ref-win-x86_64.dll
+2020-09-27 13:05:27,943 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-27 13:05:29,269 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-27 13:05:32,985 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2020-09-27 13:05:44,129 WARN Executor task launch worker for task 743 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-09-27 13:05:44,179 INFO Executor task launch worker for task 743 com.github.fommil.jni.JniLoader - successfully loaded C:\Users\ktlco\AppData\Local\Temp\jniloader6187816506364173194netlib-native_ref-win-x86_64.dll
+2020-09-27 13:05:44,513 WARN main com.github.fommil.netlib.LAPACK - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-09-27 13:05:44,524 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_ref-win-x86_64.dll
+2020-09-27 13:25:35,167 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-27 13:25:36,582 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-27 13:25:40,247 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2020-09-27 13:25:51,547 WARN Executor task launch worker for task 748 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-09-27 13:25:51,589 INFO Executor task launch worker for task 748 com.github.fommil.jni.JniLoader - successfully loaded C:\Users\ktlco\AppData\Local\Temp\jniloader5072873384047262699netlib-native_ref-win-x86_64.dll
+2020-09-27 13:25:51,924 WARN main com.github.fommil.netlib.LAPACK - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-09-27 13:25:51,935 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_ref-win-x86_64.dll
+2020-09-27 13:32:21,769 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-27 13:32:23,010 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-27 13:32:26,558 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2020-09-27 13:32:37,796 WARN Executor task launch worker for task 753 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-09-27 13:32:37,855 INFO Executor task launch worker for task 753 com.github.fommil.jni.JniLoader - successfully loaded C:\Users\ktlco\AppData\Local\Temp\jniloader5270193158884131213netlib-native_ref-win-x86_64.dll
+2020-09-27 13:32:38,207 WARN main com.github.fommil.netlib.LAPACK - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-09-27 13:32:38,219 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_ref-win-x86_64.dll
+2020-09-27 13:37:47,297 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-27 13:37:48,642 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-27 13:37:52,393 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2020-09-27 13:38:03,272 WARN Executor task launch worker for task 751 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-09-27 13:38:03,313 INFO Executor task launch worker for task 751 com.github.fommil.jni.JniLoader - successfully loaded C:\Users\ktlco\AppData\Local\Temp\jniloader7853376055348610232netlib-native_ref-win-x86_64.dll
+2020-09-27 13:38:03,675 WARN main com.github.fommil.netlib.LAPACK - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-09-27 13:38:03,686 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_ref-win-x86_64.dll
+2020-09-27 13:50:16,334 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-27 13:50:17,676 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-27 13:50:21,251 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2020-09-27 13:50:32,405 WARN Executor task launch worker for task 748 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-09-27 13:50:32,477 INFO Executor task launch worker for task 748 com.github.fommil.jni.JniLoader - successfully loaded C:\Users\ktlco\AppData\Local\Temp\jniloader7485481208817369579netlib-native_ref-win-x86_64.dll
+2020-09-27 13:50:32,818 WARN main com.github.fommil.netlib.LAPACK - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-09-27 13:50:32,829 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_ref-win-x86_64.dll
+2020-09-27 13:51:40,775 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-27 13:51:42,160 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-27 13:51:45,744 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2020-09-27 13:51:56,738 WARN Executor task launch worker for task 749 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-09-27 13:51:56,779 INFO Executor task launch worker for task 749 com.github.fommil.jni.JniLoader - successfully loaded C:\Users\ktlco\AppData\Local\Temp\jniloader8310974934753035574netlib-native_ref-win-x86_64.dll
+2020-09-27 13:51:57,105 WARN main com.github.fommil.netlib.LAPACK - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-09-27 13:51:57,117 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_ref-win-x86_64.dll
+2020-09-27 13:52:50,969 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-27 13:52:52,250 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-27 13:52:55,819 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2020-09-27 13:53:06,553 WARN Executor task launch worker for task 750 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-09-27 13:53:06,595 INFO Executor task launch worker for task 750 com.github.fommil.jni.JniLoader - successfully loaded C:\Users\ktlco\AppData\Local\Temp\jniloader984070369372855042netlib-native_ref-win-x86_64.dll
+2020-09-27 13:53:06,936 WARN main com.github.fommil.netlib.LAPACK - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-09-27 13:53:06,949 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_ref-win-x86_64.dll
+2020-09-27 13:53:54,370 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-27 13:53:55,650 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-09-27 13:53:59,306 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2020-09-27 13:54:10,374 WARN Executor task launch worker for task 753 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-09-27 13:54:10,417 INFO Executor task launch worker for task 753 com.github.fommil.jni.JniLoader - successfully loaded C:\Users\ktlco\AppData\Local\Temp\jniloader4698635002871454687netlib-native_ref-win-x86_64.dll
+2020-09-27 13:54:10,768 WARN main com.github.fommil.netlib.LAPACK - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-09-27 13:54:10,779 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_ref-win-x86_64.dll
